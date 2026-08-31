@@ -3,6 +3,35 @@ ____________________
 XIPHOS RELEASE NOTES
 ____________________
 
+Release 4.5.0
+08 June 2026
+
+#1391	Make chapter-separating lines disappear when headings are turned off.
+#1383	Make sure journals will font-resize with the rest of the main window's panes.
+ #921	Caret for text selection (#1382).
+#1375	Updates to manual.
+#1377	Restored proper expansion of bookmark (#1370).
+#1374	Fix mis-parse of verse due to subverse footnote indicator.
+#1370	Fix crash from repeated open/close of parallel tab.
+#1372	Fix for bad checkmark icons in Prefs->BibleSync and mod.mgr->Install.
+#1366	Fixed problem of doubled navbar on re-open of parallel tab.
+#1368	Provide for discovery of bookmark source of verse colorization.
+#1365	Fixed problem of paragraph breaks getting in the way of highlighting.
+ #968	Colorized bookmarks per folder color (#1336).
+ #639	Saved sets of parallelism (#1348, #1356, #1361).
+ #930	Add context menu item Lookup Selection -> Translate Selection (#1355).
+#1349	Add module favorites category; provide for alternate module tree sort (Prefs -> Modules -> Special).
+#1351	Provide for import of AndBible bookmarks.
+#1353	Fix navigation freeze when active verse has no text.
+ #612	Render whole Bible books (optional: Prefs -> Options -> Display whole Bible books) (#1350).
+#1330	(Adjustment) (Critical) Fix infloop where annotations containing '&' are replaced w/ &amp;amp;amp;amp;...
+#1335	Provide optional (see right-click) popup menu for multi-reference bookmarks (#1342).
+#1317	Bookmark folder colors (#685).
+#1320	Language file updates. No more modules fall into "Unknown" language status.
+#1170	Provide 8-column display because big, wide displays need it.
+several	Fix a number security holes, largely about internal handling of URLs. Thanx to Devon Kirk.
+________________________________________________________________
+
 Release 4.4.0
 08 June 2026
 
