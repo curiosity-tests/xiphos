@@ -149,6 +149,13 @@ int main(int argc, char *argv[])
 	}
 #ifdef WIN32
 	/*
+	 * We have learned that Windows scaling is not respected by
+	 * GTK3 titlebar controls. But there is an env.var to tell
+	 * GTK3 not to worry abott it, let Windows do its thing.
+	 */
+	g_setenv("GTK_CSD", "0", TRUE);
+
+	/*
 	 * WIN32 perversity: We very much want to be *in* the
 	 * the directory where Xiphos exists, to keep gconf and
 	 * gspawn happy.  Glib provides this nice function for us
