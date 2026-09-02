@@ -1883,7 +1883,7 @@ GTKChapDisp::display(SWModule &imodule)
 	 * this must not be done per-verse inside the render loop. */
 	build_tag_color_map(key);
 
-	if (settings.render_whole_books) {
+	if (settings.render_whole_books && !strongs_or_morph) {
 #ifdef CHATTY
 		GTimer *t;
 		double d;
